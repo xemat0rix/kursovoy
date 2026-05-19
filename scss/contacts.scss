@@ -1,0 +1,66 @@
+@import 'base';
+
+.contacts-page {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 56px 60px 80px;
+
+  h1 { font-size: 32px; font-weight: 700; margin-bottom: 40px; color: $dark; }
+}
+
+.contacts-layout {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.contacts-info {
+  h2 { font-size: 20px; font-weight: 700; margin-bottom: 24px; color: $dark; }
+
+  .info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 20px;
+
+    svg { width: 20px; height: 20px; flex-shrink: 0; margin-top: 2px; color: $blue; }
+
+    div { font-size: 15px; line-height: 1.6; color: $dark; }
+    strong { display: block; font-weight: 700; margin-bottom: 2px; }
+    .contact-phone { color: $blue; font-weight: 600; }
+  }
+
+  .btn-primary {
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    height: 48px;
+    background: $blue;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s;
+    &:hover { background: $blue-dark; }
+  }
+}
+
+.contacts-map {
+  border-radius: 10px;
+  overflow: hidden;
+
+  iframe { width: 100%; height: 440px; border: 0; display: block; }
+}
+
+@media (max-width: 900px) {
+  .contacts-page { padding: 36px 20px 56px; h1 { font-size: 24px; margin-bottom: 28px; } }
+  .contacts-layout { grid-template-columns: 1fr; gap: 28px; }
+  .contacts-map iframe { height: 280px; }
+}

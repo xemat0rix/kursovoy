@@ -1,0 +1,83 @@
+@import 'base';
+
+.about-page {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 56px 40px 80px;
+
+  h1 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
+    color: #000000;
+  }
+
+  h2 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+
+  p {
+    text-indent: 20px;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    color: #000000;
+  }
+
+  ol {
+    padding-left: 20px;
+    margin-bottom: 16px;
+
+    li {
+      margin-bottom: 14px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 50px;
+      color: #000000;
+    }
+  }
+
+  .about-outro {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
+    color: #000000;
+    margin-top: 32px;
+    text-indent: 0;
+
+    a {
+      color: $blue;
+      text-decoration: underline;
+
+      &:hover {
+        color: $blue-dark;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page {
+    padding: 36px 20px 56px;
+
+    h1,
+    .about-outro,
+    h2 {
+      line-height: 25px;
+      font-size: 18px;
+    }
+
+    p,
+    ol li {
+      line-height: 25px;
+      font-size: 14px;
+    }
+  }
+}

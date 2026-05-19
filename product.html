@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Товар — HomeZone</title>
+  <link rel="stylesheet" href="./css/product.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">HomeZone</a>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html">На главную</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="contacts.html">Где нас найти?</a></li>
+          <li><a href="news.html">Новости и обзоры</a></li>
+        </ul>
+      </nav>
+      <span class="header-phone">+375 (29) 915-18-96</span>
+      <button class="burger-btn" id="burgerBtn" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav-overlay" id="mobileNav">
+    <div class="mobile-nav-header">
+      <button class="close-btn" id="closeNavBtn">&#x2715;</button>
+      <span class="mobile-logo">HomeZone</span>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html">На главную</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="about.html">О нас</a></li>
+      <li><a href="contacts.html">Где нас найти?</a></li>
+      <li><a href="news.html">Новости и обзоры</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <div class="product-page">
+      <div class="product-image-block">
+        <img id="productImg" src="" alt="">
+      </div>
+      <div class="product-info">
+        <h1 id="productName"></h1>
+        <ul class="product-specs-list" id="productSpecs"></ul>
+        <div class="product-qty-row">
+          <span class="qty-label">Количество:</span>
+          <div class="qty-control">
+            <button id="qtyMinus">&#8722;</button>
+            <span id="qtyDisplay">1</span>
+            <button id="qtyPlus">&#43;</button>
+          </div>
+        </div>
+        <p class="product-price" id="productPrice"></p>
+        <button class="btn-order" id="orderBtn">ОФОРМИТЬ ЗАКАЗ</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div class="footer-left">
+          <div class="footer-logo">HomeZone</div>
+          <p class="footer-address">ТЦ "Green City",<br>ул. Притыцкого, 156</p>
+          <div class="footer-phone">+375 (29) 915-18-96</div>
+          <button class="footer-contact-btn">НАПИШИТЕ НАМ</button>
+        </div>
+        <div></div>
+        <div class="footer-email-block"><p>homezone@gmail.com</p></div>
+      </div>
+      <div class="footer-bottom"><p>Все права защищены.</p></div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="orderModal">
+    <div class="modal-box">
+      <button class="modal-close">&times;</button>
+      <h1>Оформить заказ</h1>
+      <div class="modal-body">
+        <form id="orderForm">
+          <div class="modal-field">
+            <label for="orderName">Ваше имя</label>
+            <input type="text" id="orderName" placeholder="Как вас зовут?" required>
+          </div>
+          <div class="modal-field">
+            <label for="orderPhone">Телефон</label>
+            <input type="tel" id="orderPhone" placeholder="+375 (__) ___-__-__" required>
+          </div>
+          <div class="modal-field">
+            <label for="orderComment">Комментарий</label>
+            <textarea id="orderComment" placeholder="Дополнительная информация..."></textarea>
+          </div>
+          <button type="submit" class="modal-submit">ОТПРАВИТЬ ЗАКАЗ</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal-box">
+      <button class="modal-close">&times;</button>
+      <h1>Напишите нам</h1>
+      <div class="modal-body">
+        <form id="contactForm">
+          <div class="modal-field">
+            <label for="contactName">Ваше имя</label>
+            <input type="text" id="contactName" placeholder="Как вас зовут?" required>
+          </div>
+          <div class="modal-field">
+            <label for="contactComment">Комментарий</label>
+            <textarea id="contactComment" placeholder="Ваш вопрос или сообщение..."></textarea>
+          </div>
+          <button type="submit" class="modal-submit">ОТПРАВИТЬ</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/product.js"></script>
+</body>
+</html>

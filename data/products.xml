@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <category id="large-appliances" name="Крупная техника">
+    <product id="gorenje-nrk6192acr4">
+      <name>Холодильник Gorenje NRK6192ACR4</name>
+      <price>990</price>
+      <oldPrice>1190</oldPrice>
+      <image>images/gorenje-fridge.jpg</image>
+      <description>Электронное управление, класс А++, перенавешиваемые двери, полка для вина, лоток для яиц.</description>
+      <specs>
+        <spec>Цвет: медь</spec>
+        <spec>Габаритные размеры (ВхШхГ), см: 185 x 60 x 59.2</spec>
+        <spec>Полезный объем холодильного отделения, л: 203</spec>
+        <spec>Полезный объем морозильного отделения, л: 99</spec>
+        <spec>Размораживание холодильного отделения: автоматическое</spec>
+        <spec>Размораживание морозильного отделения: автоматическое</spec>
+        <spec>Эко режим</spec>
+        <spec>Возможность перевешивания двери</spec>
+      </specs>
+    </product>
+    <product id="indesit-ewsb5085bkcis">
+      <name>Стиральная машина Indesit EWSB 5085 BK CIS</name>
+      <price>1490</price>
+      <image>images/indesit-washer.jpg</image>
+      <description>Компактные размеры позволяют установить машину даже в небольших ванных комнатах.</description>
+      <specs>
+        <spec>Тип загрузки: фронтальная</spec>
+        <spec>Максимальная загрузка: 5 кг</spec>
+        <spec>Максимальная скорость отжима: 800 об/мин</spec>
+        <spec>Цвет: черный</spec>
+      </specs>
+    </product>
+    <product id="hansa-fccws8240">
+      <name>Плита электрическая Hansa FCCWS8240</name>
+      <price>990</price>
+      <image>images/hansa-stove.jpg</image>
+      <description>Стеклокерамическая варочная поверхность, духовой шкаф с конвекцией.</description>
+      <specs>
+        <spec>Тип: электрическая</spec>
+        <spec>Варочная поверхность: стеклокерамика</spec>
+        <spec>Духовой шкаф: да</spec>
+        <spec>Конвекция: да</spec>
+      </specs>
+    </product>
+    <product id="gefest-6500030244">
+      <name>Кухонная плита GEFEST 6502-03 0244</name>
+      <price>1190</price>
+      <image>images/gefest-stove.jpg</image>
+      <description>Надежная газовая плита с электрической духовкой от белорусского производителя.</description>
+      <specs>
+        <spec>Тип: газовая плита с электродуховкой</spec>
+        <spec>Количество конфорок: 4</spec>
+        <spec>Объем духовки: 65 л</spec>
+        <spec>Цвет: черный</spec>
+      </specs>
+    </product>
+    <product id="schlutt-sva45106a">
+      <name>Встраиваемая посудомоечная машина Schtoff SVA 45106 A</name>
+      <price>1190</price>
+      <image>images/schlutt-dishwasher.jpg</image>
+      <description>Встраиваемая посудомоечная машина с вместительным баком и тихой работой.</description>
+      <specs>
+        <spec>Тип: встраиваемая</spec>
+        <spec>Вместимость: 10 комплектов</spec>
+        <spec>Уровень шума: 49 дБ</spec>
+        <spec>Класс энергопотребления: A</spec>
+      </specs>
+    </product>
+  </category>
+
+  <category id="hair-clippers" name="Машинки для стрижки волос">
+    <product id="enchen-boost2">
+      <name>Машинка для стрижки волос Enchen Boost 2</name>
+      <price>37</price>
+      <oldPrice>45</oldPrice>
+      <image>images/enchen-boost2.jpg</image>
+      <description>Профессиональная машинка для стрижки с быстрой зарядкой и длительным временем работы.</description>
+      <specs>
+        <spec>Питание: аккумулятор</spec>
+        <spec>Время работы: до 4 часов</spec>
+        <spec>Водонепроницаемость: IPX7</spec>
+        <spec>Насадки в комплекте: 6 шт</spec>
+      </specs>
+    </product>
+    <product id="enchen-yoyo">
+      <name>Машинка для стрижки Enchen YOYO</name>
+      <price>37</price>
+      <oldPrice>45</oldPrice>
+      <image>images/enchen-yoyo.jpg</image>
+      <description>Компактная машинка для стрижки с керамическими лезвиями и USB-зарядкой.</description>
+      <specs>
+        <spec>Питание: аккумулятор USB-C</spec>
+        <spec>Время работы: до 3 часов</spec>
+        <spec>Лезвие: керамическое</spec>
+        <spec>Насадки: 4 шт</spec>
+      </specs>
+    </product>
+  </category>
+
+  <category id="hair-dryers" name="Фены и выпрямители для волос">
+    <product id="enchen-air5">
+      <name>Фен для волос профессиональный Enchen Air 5</name>
+      <price>39</price>
+      <image>images/enchen-air5.jpg</image>
+      <description>Мощный профессиональный фен с ионизацией и несколькими режимами температуры.</description>
+      <specs>
+        <spec>Мощность: 1600 Вт</spec>
+        <spec>Ионизация: да</spec>
+        <spec>Режимов температуры: 3</spec>
+        <spec>Скоростей: 2</spec>
+      </specs>
+    </product>
+    <product id="enchen-air-hairdryer">
+      <name>Фен для волос Enchen Air Hair dryer</name>
+      <price>45</price>
+      <image>images/enchen-hairdryer.jpg</image>
+      <description>Легкий и мощный фен с технологией быстрой сушки.</description>
+      <specs>
+        <spec>Мощность: 1800 Вт</spec>
+        <spec>Режимов: 3</spec>
+        <spec>Холодный обдув: да</spec>
+      </specs>
+    </product>
+    <product id="enchen-hair-curler">
+      <name>Выпрямитель для волос Enchen Hair Curler Стайлер 2 в 1</name>
+      <price>49</price>
+      <image>images/enchen-curler.jpg</image>
+      <description>Универсальный стайлер 2 в 1 – выпрямитель и щипцы для завивки.</description>
+      <specs>
+        <spec>Температура: до 230°C</spec>
+        <spec>Покрытие: керамика</spec>
+        <spec>Режимы: выпрямление и завивка</spec>
+      </specs>
+    </product>
+    <product id="enchen-enrollor-straightener">
+      <name>Выпрямитель для волос плойка Enchen Enrollor Стайлер 2 в 1</name>
+      <price>36</price>
+      <image>images/enchen-straightener.jpg</image>
+      <description>Универсальный стайлер для создания разнообразных причесок.</description>
+      <specs>
+        <spec>Температура: до 220°C</spec>
+        <spec>Покрытие: турмалин</spec>
+        <spec>Нагрев: 30 секунд</spec>
+      </specs>
+    </product>
+  </category>
+
+  <category id="electric-toothbrushes" name="Электрические зубные щетки">
+    <product id="enchen-aurora1">
+      <name>Электрическая зубная щетка Enchen Aurora T</name>
+      <price>37</price>
+      <image>images/enchen-aurora1.jpg</image>
+      <description>Электрическая зубная щетка с таймером и несколькими режимами чистки.</description>
+      <specs>
+        <spec>Режимов: 3</spec>
+        <spec>Частота: 31000 движений/мин</spec>
+        <spec>Время работы: 30 дней</spec>
+        <spec>Зарядка: USB</spec>
+      </specs>
+    </product>
+    <product id="enchen-mint5">
+      <name>Электрическая зубная щетка Enchen Mint 5</name>
+      <price>39</price>
+      <image>images/enchen-mint5.jpg</image>
+      <description>Ультразвуковая щетка с мягкими щетинками для деликатного ухода за зубами.</description>
+      <specs>
+        <spec>Режимов: 5</spec>
+        <spec>Частота: 40000 движений/мин</spec>
+        <spec>Время работы: 25 дней</spec>
+        <spec>IPX7: водонепроницаемая</spec>
+      </specs>
+    </product>
+    <product id="enchen-flosser3">
+      <name>Ирригатор для полости рта портативный Enchen Water Flosser Mint 3</name>
+      <price>49</price>
+      <image>images/enchen-flosser3.jpg</image>
+      <description>Компактный ирригатор для глубокой чистки межзубного пространства и массажа десен.</description>
+      <specs>
+        <spec>Давление воды: 30-110 PSI</spec>
+        <spec>Режимов: 3</spec>
+        <spec>Объем резервуара: 200 мл</spec>
+        <spec>IPX7: водонепроницаемый</spec>
+      </specs>
+    </product>
+    <product id="enchen-aurora-t3">
+      <name>Электрическая зубная щетка Enchen Aurora T3</name>
+      <price>49</price>
+      <oldPrice>70</oldPrice>
+      <image>images/enchen-aurora-t3.jpg</image>
+      <description>Три режима работы для тщательной очистки полости рта.</description>
+      <specs>
+        <spec>Режимов: 3 (чистка, отбеливание, массаж)</spec>
+        <spec>Частота: 38000 движений/мин</spec>
+        <spec>Время работы: 30 дней</spec>
+        <spec>Насадок в комплекте: 2 шт</spec>
+      </specs>
+    </product>
+  </category>
+
+  <category id="home-care" name="Товары для ухода за домом">
+    <product id="enchen-coco1">
+      <name>Дозатор для жидкого мыла Enchen COCO Handwash Basin</name>
+      <price>37</price>
+      <image>images/enchen-coco1.jpg</image>
+      <description>Сенсорный дозатор для мыла с автоматической подачей.</description>
+      <specs>
+        <spec>Тип: сенсорный, бесконтактный</spec>
+        <spec>Объем: 300 мл</spec>
+        <spec>Питание: батарейки AA</spec>
+      </specs>
+    </product>
+    <product id="enchen-coco2">
+      <name>Дозатор для жидкого мыла Enchen COCO 2</name>
+      <price>45</price>
+      <oldPrice>89</oldPrice>
+      <image>images/enchen-coco2.jpg</image>
+      <description>Улучшенный дозатор с регулировкой объема подачи и элегантным дизайном.</description>
+      <specs>
+        <spec>Тип: сенсорный</spec>
+        <spec>Объем: 350 мл</spec>
+        <spec>Регулировка дозы: да</spec>
+        <spec>Материал: ABS пластик</spec>
+      </specs>
+    </product>
+    <product id="enchen-vacuum-v1">
+      <name>Пылесос вертикальный для дома Enchen Vacuum Cleaner V1</name>
+      <price>99</price>
+      <image>images/enchen-vacuum-v1.jpg</image>
+      <description>Легкий вертикальный пылесос для ежедневной уборки.</description>
+      <specs>
+        <spec>Мощность всасывания: 17000 Па</spec>
+        <spec>Тип: беспроводной</spec>
+        <spec>Время работы: до 40 мин</spec>
+        <spec>Вес: 1.2 кг</spec>
+      </specs>
+    </product>
+    <product id="enchen-vacuum-v2">
+      <name>Пылесос вертикальный для дома Enchen Vacuum Cleaner V2</name>
+      <price>129</price>
+      <image>images/enchen-vacuum-v2.jpg</image>
+      <description>Мощный беспроводной пылесос с HEPA-фильтром для глубокой очистки.</description>
+      <specs>
+        <spec>Мощность всасывания: 22000 Па</spec>
+        <spec>Тип: беспроводной</spec>
+        <spec>Время работы: до 60 мин</spec>
+        <spec>Фильтр: HEPA</spec>
+      </specs>
+    </product>
+    <product id="enchen-vacuum-r1">
+      <name>Робот пылесос для дома Enchen Vacuum Cleaner R1</name>
+      <price>249</price>
+      <image>images/enchen-vacuum-r1.jpg</image>
+      <description>Умный робот-пылесос с навигацией и управлением через приложение.</description>
+      <specs>
+        <spec>Навигация: лазерная</spec>
+        <spec>Мощность всасывания: 2700 Па</spec>
+        <spec>Время работы: до 150 мин</spec>
+        <spec>Управление: приложение на смартфоне</spec>
+      </specs>
+    </product>
+    <product id="samsung-vc20m251awbev">
+      <name>Пылесос SAMSUNG VC20M251AWB/EV</name>
+      <price>429</price>
+      <oldPrice>880</oldPrice>
+      <image>images/samsung-vacuum.jpg</image>
+      <description>Высокая мощность всасывания обеспечивает тщательное очищение ковров и твердых поверхностей.</description>
+      <specs>
+        <spec>Мощность: 2000 Вт</spec>
+        <spec>Объем пылесборника: 2 л</spec>
+        <spec>Тип: проводной</spec>
+        <spec>Фильтр: HEPA</spec>
+      </specs>
+    </product>
+  </category>
+
+  <category id="kitchen-appliances" name="Мелкая кухонная техника">
+    <product id="aresa-ar1614">
+      <name>Кофеварка ARESA AR-1614</name>
+      <price>119</price>
+      <oldPrice>190</oldPrice>
+      <image>images/aresa-coffee.jpg</image>
+      <description>Электрическая рожковая кофеварка Aresa AR-1614 — это стильный и функциональный прибор, который позволит вам наслаждаться ароматным эспрессо, капучино и латте прямо у себя дома.</description>
+      <specs>
+        <spec>Тип: рожковая</spec>
+        <spec>Давление: 15 бар</spec>
+        <spec>Мощность: 850 Вт</spec>
+        <spec>Объем резервуара: 1.2 л</spec>
+        <spec>Капучинатор: да</spec>
+      </specs>
+    </product>
+    <product id="philips-hr3020">
+      <name>Блендер Philips HR3020/20</name>
+      <price>185</price>
+      <image>images/philips-blender.jpg</image>
+      <description>Мощный стационарный блендер для приготовления смузи, коктейлей и супов-пюре.</description>
+      <specs>
+        <spec>Мощность: 600 Вт</spec>
+        <spec>Объем чаши: 2 л</spec>
+        <spec>Скоростей: 2 + импульс</spec>
+        <spec>Материал чаши: стекло</spec>
+      </specs>
+    </product>
+    <product id="kitfort-kt4605">
+      <name>Электрогриль Kitfort KT-4605</name>
+      <price>99</price>
+      <image>images/kitfort-grill.jpg</image>
+      <description>Контактный электрогриль с антипригарным покрытием для приготовления мяса, рыбы и овощей.</description>
+      <specs>
+        <spec>Мощность: 1200 Вт</spec>
+        <spec>Покрытие: антипригарное</spec>
+        <spec>Площадь гриля: 300 x 220 мм</spec>
+        <spec>Индикатор нагрева: да</spec>
+      </specs>
+    </product>
+  </category>
+</catalog>

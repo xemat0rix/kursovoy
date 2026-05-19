@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас — HomeZone</title>
+  <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">HomeZone</a>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html">На главную</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="contacts.html">Где нас найти?</a></li>
+          <li><a href="news.html">Новости и обзоры</a></li>
+        </ul>
+      </nav>
+      <span class="header-phone">+375 (29) 915-18-96</span>
+      <button class="burger-btn" id="burgerBtn" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav-overlay" id="mobileNav">
+    <div class="mobile-nav-header">
+      <button class="close-btn" id="closeNavBtn">&#x2715;</button>
+      <span class="mobile-logo">HomeZone</span>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html">На главную</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="about.html">О нас</a></li>
+      <li><a href="contacts.html">Где нас найти?</a></li>
+      <li><a href="news.html">Новости и обзоры</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <article class="about-page">
+      <h1>HomeZone: Твой дом. Твой стиль. Твои правила.</h1>
+
+      <p>Надоела скучная бытовуха? Устал от однообразных белых коробок на кухне и фенов, которые «просто сушат»? Добро пожаловать в HomeZone — зону, где техника перестаёт быть просто приборами и становится частью твоего стиля.</p>
+      <p>Мы не продаём «товары для дома». Мы создаём твоё личное пространство, наполняя его девайсами, на которые приятно смотреть, которыми кайфово пользоваться и которые говорят о тебе больше, чем твой Instagram.</p>
+
+      <h2>ПОЧЕМУ МЫ — ЛУЧШИЕ В СВОЁМ ДЕЛЕ?</h2>
+
+      <p>Забудь про компромиссы. Хочешь холодильник? Пожалуйста. Но в HomeZone это не просто ящик для еды, а стильный объект в цвете «медь» от Gorenje, который станет главным акцентом твоей кухни.</p>
+      <p>Уход за собой — на уровне Pro. Твои волосы заслуживают большего, чем дешёвый пластик. Мощные фены, утюжки, создающие идеальный стиль за пару движений. Машинки Enchen Boost и YOYO сделают тебя королём барбершопа на дому.</p>
+      <p>Гаджеты для тех, кто понимает. Умные электрические зубные щётки, которые чистят так, что стоматологи отдыхают. Стильные сенсорные диспенсеры для мыла. Мы подбираем вещи, которые делают каждый твой день приятнее.</p>
+
+      <h2>НАШИ ГАРАНТИИ:</h2>
+
+      <ol>
+        <li>Только реально крутые бренды: Gorenje, Indesit, Hansa, GEFEST, Enchen и другие. Только техника с репутацией, которая будет служить годами.</li>
+        <li>Гарантия качества: на каждую единицу техники мы даём официальную гарантию.</li>
+        <li>Лучшие цены: увидел перечёркнутую цену? Это реальная скидка на премиальный товар.</li>
+        <li>Мы всегда рядом: ТЦ "Green City", Минск, ул. Притыцкого, 156. Приходи, трогай, убеждайся. Или просто позвони: +375 (29) 915-18-96.</li>
+        <li>Максимально простой сервис: нашёл, нажал «ОФОРМИТЬ ЗАКАЗ» — готово. Никакой лишней бюрократии.</li>
+      </ol>
+
+      <p class="about-outro">HomeZone — это выбор тех, кто не согласен на меньшее. Переходи в <a href="catalog.html">каталог</a> и убедись сам.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div class="footer-left">
+          <div class="footer-logo">HomeZone</div>
+          <p class="footer-address">ТЦ "Green City",<br>ул. Притыцкого, 156</p>
+          <div class="footer-phone">+375 (29) 915-18-96</div>
+          <button class="footer-contact-btn">НАПИШИТЕ НАМ</button>
+        </div>
+        <div></div>
+        <div class="footer-email-block"><p>homezone@gmail.com</p></div>
+      </div>
+      <div class="footer-bottom"><p>Все права защищены.</p></div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal-box">
+      <button class="modal-close">&times;</button>
+      <h1>Напишите нам</h1>
+      <div class="modal-body">
+        <form id="contactForm">
+          <div class="modal-field">
+            <label for="contactName">Ваше имя</label>
+            <input type="text" id="contactName" placeholder="Как вас зовут?" required>
+          </div>
+          <div class="modal-field">
+            <label for="contactComment">Комментарий</label>
+            <textarea id="contactComment" placeholder="Ваш вопрос или сообщение..."></textarea>
+          </div>
+          <button type="submit" class="modal-submit">ОТПРАВИТЬ</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>
